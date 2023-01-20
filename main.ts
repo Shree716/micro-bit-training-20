@@ -4,7 +4,10 @@ input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     }
 })
 input.onButtonPressed(Button.A, function () {
-    music.playMelody("C5 B A G F E D C ", 120)
+    for (let index = 0; index < 69; index++) {
+        music.playMelody("C5 B A G F E D C ", 415)
+        music.playMelody("C D E F G A B C5 ", 415)
+    }
 })
 input.onGesture(Gesture.TiltLeft, function () {
     basic.showIcon(IconNames.Yes)

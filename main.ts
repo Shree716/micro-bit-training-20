@@ -9,9 +9,6 @@ input.onButtonPressed(Button.A, function () {
 input.onGesture(Gesture.TiltLeft, function () {
     basic.showIcon(IconNames.Yes)
 })
-input.onSound(DetectedSound.Loud, function () {
-    basic.showString("Beta!! How Dare You I Am God")
-})
 input.onButtonPressed(Button.AB, function () {
     basic.showIcon(IconNames.Heart)
 })
@@ -24,6 +21,9 @@ input.onGesture(Gesture.Shake, function () {
 })
 input.onGesture(Gesture.TiltRight, function () {
     basic.showIcon(IconNames.No)
+})
+input.onSound(DetectedSound.Quiet, function () {
+    basic.showString("Beta!! How Dare You I Am God")
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     music.playMelody("C5 G B A F A C5 B ", 120)

@@ -19,6 +19,8 @@ input.onButtonPressed(Button.B, function () {
 input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Surprised)
 })
+// Im goat
+// 
 input.onGesture(Gesture.TiltRight, function () {
     basic.showIcon(IconNames.No)
 })

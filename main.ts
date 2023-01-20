@@ -6,6 +6,10 @@ input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
 input.onButtonPressed(Button.A, function () {
     music.playMelody("C5 B A G F E D C ", 120)
 })
+input.onGesture(Gesture.TiltLeft, function () {
+    basic.showString("" + (input.rotation(Rotation.Pitch)))
+    basic.showIcon(IconNames.Yes)
+})
 input.onSound(DetectedSound.Loud, function () {
     basic.showString("Beta!! How Dare You I Am God")
 })
@@ -18,6 +22,9 @@ input.onButtonPressed(Button.B, function () {
 })
 input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Surprised)
+})
+input.onGesture(Gesture.TiltRight, function () {
+    basic.showIcon(IconNames.No)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     music.playMelody("C5 G B A F A C5 B ", 120)

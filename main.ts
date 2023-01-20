@@ -7,7 +7,6 @@ input.onButtonPressed(Button.A, function () {
     music.playMelody("C5 B A G F E D C ", 120)
 })
 input.onGesture(Gesture.TiltLeft, function () {
-    basic.showString("" + (input.rotation(Rotation.Pitch)))
     basic.showIcon(IconNames.Yes)
 })
 input.onSound(DetectedSound.Loud, function () {

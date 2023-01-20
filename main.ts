@@ -1,3 +1,8 @@
+input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
+    for (let index = 0; index < 2; index++) {
+        music.playMelody("G F G A - F E D ", 196)
+    }
+})
 input.onButtonPressed(Button.A, function () {
     music.playMelody("C5 B A G F E D C ", 120)
 })

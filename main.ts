@@ -4,7 +4,7 @@ input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     }
 })
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index < 69; index++) {
+    for (let index = 0; index < 4; index++) {
         music.playMelody("C5 B A G F E D C ", 415)
         music.playMelody("C D E F G A B C5 ", 415)
     }

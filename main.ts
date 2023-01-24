@@ -27,9 +27,6 @@ input.onGesture(Gesture.Shake, function () {
 input.onGesture(Gesture.TiltRight, function () {
     basic.showIcon(IconNames.No)
 })
-input.onSound(DetectedSound.Quiet, function () {
-    basic.showString("Beta!! How Dare You I Am God")
-})
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     music.playMelody("C5 G B A F A C5 B ", 120)
 })

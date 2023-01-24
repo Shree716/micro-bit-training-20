@@ -28,5 +28,5 @@ input.onGesture(Gesture.TiltRight, function () {
     basic.showIcon(IconNames.No)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    music.playMelody("C5 G B A F A C5 B ", 120)
+    music.playMelody("E B C5 A B G A F ", 120)
 })
